@@ -2,32 +2,169 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-	<meta charset="UTF-8">
+  <meta charset="UTF-8">
   
-	<title></title>
-	<link rel="icon" href="https://static.licdn.com/scds/common/u/images/logos/favicons/v1/favicon.ico">
-	<meta content="width=device-width,initial-scale=1.0,maximum-scale=1.0,user-scalable=no" name="viewport">
-  	<meta content="yes" name="apple-mobile-web-app-capable">
-  	<meta content="black" name="apple-mobile-web-app-status-bar-style">
-  	<meta content="telephone=no" name="format-detection">
-    <meta property="og:title" content="更多攻略" />
+  <title></title>
+  <link rel="icon" href="https://static.licdn.com/scds/common/u/images/logos/favicons/v1/favicon.ico">
+  <meta content="width=device-width,initial-scale=1.0,maximum-scale=1.0,user-scalable=no" name="viewport">
+    <meta content="yes" name="apple-mobile-web-app-capable">
+    <meta content="black" name="apple-mobile-web-app-status-bar-style">
+    <meta content="telephone=no" name="format-detection">
+    <meta property="og:title" content="更多攻略 - 玩转领英" />
     <meta property="og:url" content="https://linkedin-event.com/activity/guidebook_home/category.html" />
     <meta property="og:image" content="https://cdn.chitu.com/guidebook/list/image/%E5%A6%82%E4%BD%95%E5%86%99%E5%A5%BD%E9%A2%86%E8%8B%B1%E6%A1%A3%E6%A1%881.png" />
-  	<style>
+    <style>
       a[href^="https://www.cnzz.com"]{
         display: none;
       }
     </style>
+  <script>
+    function getQueryVariable(variable) {
+       var query = window.location.search.substring(1);
+       var vars = query.split("&");
+       for (var i=0;i<vars.length;i++) {
+           var pair = vars[i].split("=");
+           if(pair[0] == variable){return pair[1];}
+       }
+       return(false);
+   }
 
+
+   var title = getQueryVariable('title');
+   if (title) {
+    channel = title
+   } else {
+    channel = '什么是好的领英档案'
+   }
+    document.getElementsByTagName("title")[0].innerText = decodeURI(channel);
+
+
+  </script>
   <!-- <link rel="stylesheet" href="https://cdn.chitu.com/global/style.css"> -->
   <link rel="stylesheet" href="./css/category.css">
+  <script>
+    var _czc = _czc || [];
+    _czc.push(["_setAccount", "1277901282"]);
+  </script>
+  <script>
+    (function(doc, win) {
+      const docEl = doc.documentElement,
+        resizeEvt = 'orientationchange' in window ? 'orientationchange' : 'resize';
+      recalc = function() {
+        var clientWidth = docEl.clientWidth;
+        if (!clientWidth) return;
+        if (/iPhone|iPad|iPod|iOS|Android/i.test(navigator.userAgent)) {
+          docEl.style.fontSize = 100 * (clientWidth / 375) + 'px';
+      } else {
+        docEl.style.fontSize = 100+'px';
+        document.getElementById("banner").style.height = 480 + 'px';
+            document.getElementById("img").style.height = 480 + 'px'
+      };
+      };
+      if (!doc.addEventListener) return;
+      win.addEventListener(resizeEvt, recalc, false);
+      recalc()
+      doc.addEventListener('DOMContentLoaded', recalc, false);
+    })(document, window);
+  </script>
 </head>
 <body>
-	<div class="wrap">
-		<ul>
-			
-		</ul>
-		<p>更多内容敬请期待</p>
-	</div>
+  <div class="wrap">
+    <ul>
+      
+    </ul>
+    <p>更多内容敬请期待</p>
+  </div>
+  <script type="text/javascript" src="https://s4.cnzz.com/z_stat.php?id=1277901282&web_id=1277901282"></script>
+  <script>
+
+    function getQueryVariable(variable) {
+       var query = window.location.search.substring(1);
+       var vars = query.split("&");
+       for (var i=0;i<vars.length;i++) {
+           var pair = vars[i].split("=");
+           if(pair[0] == variable){return pair[1];}
+       }
+       return(false);
+   }
+
+   var fr = getQueryVariable('id');
+   if (fr) {
+    channel = fr
+   } else {
+    channel = ''
+   }
+   var student = getQueryVariable('identity');
+   if (student) {
+    channel2 = student
+   } else {
+    channel2 = ''
+   }
+   var data = ''
+   
+   if (channel == 0) {
+    data = window.second_list.slice(0, 3);
+     window.__pageSharingConfig = { // eslint-disable-line no-underscore-dangle
+      title: '想要提升被HR“翻牌”的概率？一份档案帮你轻松解决',
+      imageUrl: 'https://cdn.chitu.com/guidebook/list/image/这样写档案被HR翻牌的几率更大.png',
+      description: '完整的领英档案帮你收获更多职业发展良机',
+      url: 'https://linkedin-event.com/activity/guidebook_home/category.html?id=1&_fr=zephry'
+    }
+   }else if (channel==1) {
+    data = window.second_list.slice(3, 6);
+    window.__pageSharingConfig = { // eslint-disable-line no-underscore-dangle
+      title: '找工作走内推，不踩坑，拿Offer概率翻倍！',
+      imageUrl: 'https://cdn.chitu.com/guidebook/list/image/如何利用networking找工作.png',
+      description: '大数据关联校友和前同事，提前掌握目标公司招聘动向',
+      url: 'https://linkedin-event.com/activity/guidebook_home/category.html?id=2&_fr=zephry'
+    }
+   }else if(channel==2){
+    data = window.second_list.slice(6, 11)
+    window.__pageSharingConfig = { // eslint-disable-line no-underscore-dangle
+      title: '“职场发展有捷径可走吗？” 告诉你，“有”！',
+      imageUrl: 'https://cdn.chitu.com/guidebook/list/image/如何玩转你的123度人脉.png',
+      description: '把握发展机会至关重要，领英123度人脉帮你找到对的人',
+      url: 'https://linkedin-event.com/activity/guidebook_home/category.html?id=3&_fr=zephry'
+    }
+   }else if(channel==3){
+    data = window.second_list.slice(11, 15)
+    window.__pageSharingConfig = { // eslint-disable-line no-underscore-dangle
+      title: '想出名？7大特权帮你从人群中脱颖而出！',
+      imageUrl: 'https://cdn.chitu.com/guidebook/list/image/如何发布一条优质动态_文章.png',
+      description: '成为优秀内容贡献者，立即阅读这份“涨粉”指南>>',
+      url: 'https://linkedin-event.com/activity/guidebook_home/category.html?id=4&_fr=zephry'
+    }
+   }else if (channel==4){
+    data = window.second_list.slice(15, 20)
+    window.__pageSharingConfig = { // eslint-disable-line no-underscore-dangle
+      title: '学生党别错过！优质实习/校招机会等你Pick',
+      imageUrl: 'https://cdn.chitu.com/guidebook/list/image/如何建立一份优秀的学生领英档案.png',
+      description: '世界500强、高端外企机会，给你的简历加分，提升竞争力',
+      url: 'https://linkedin-event.com/activity/guidebook_home/category.html?id=5&_fr=zephry'
+    }
+   }
+
+    var str = ''
+    for (var i=0;i<data.length;i++){
+      str+='<li onclick="toLink(\''+data[i].link+'\', \''+data[i].id+'\')"><div class="left"><img src="https://cdn.chitu.com/guidebook/list/image/'+data[i].imageUrl+'" alt=""></div><div class="right">'+data[i].title+'</div></li>'
+    }
+    document.querySelector('.wrap ul').innerHTML = str;
+    toLink = function (link, trk) {
+      _czc.push([
+        "_trackEvent", // required
+        "guidebook_category", // pageKey
+        "click", // event type
+        channel + '_index_article' + trk + '_' + channel2, // button name
+        '',
+        ''
+      ])
+      if (link.indexOf('?')!=-1) {
+        window.location.href = link + '&keep_back_stack=true'
+      } else {
+        window.location.href = link + '?keep_back_stack=true'
+      }
+      
+    }
+  </script>
 </body>
 </html>
